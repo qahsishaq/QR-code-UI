@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	background: hsl(212, 45%, 89%);
+	display: flex;
+	font-family: "Outfit", sans-serif;
+	align-content: center;
+	justify-content: center;
+}
+main {
+	width: 17.5%;
+	height: 50rem;
+	background: hsl(0, 0%, 100%);
+	padding: 1.2rem;
+	border-radius: 1.5rem;
+	margin-top: 15vh;
+}
+.headers {
+	margin-top: 2.9rem;
+}
+h1 {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 80 0;
+	color: hsl(218, 44%, 22%);
+}
+.attribution {
+	margin-top: 3rem;
+	font-size: 1.1rem;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+	text-decoration: none;
+}
+.qr-img {
+	border-radius: 1rem;
+}
+p {
+	font-size: 1.4rem;
+	color: hsla(213, 5%, 43%, 0.808);
+	text-align: center;
+	font-weight: 400;
+}
+#grey-text-container {
+	margin-top: 1.9rem;
+}
+#code-name {
+	font-style: italic;
+}
+@media (max-width: 500px) {
+	main {
+		width: 84%;
+		height: 65rem;
+	}
+	h1 {
+		font-size: 2.7rem;
+	}
+	p {
+		font-size: 2rem;
+	}
+	.attribution {
+		font-size: 1.35rem;
+	}
+}
+@media (min-width: 1700px) {
+main{
+height: 76rem;
+}
+h1{
+font-size: 3.2rem;
+}
+p{
+font-size: 2.37rem;
+}
+.attribution{
+font-size: 1.6rem;
+
+}
+}
